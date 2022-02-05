@@ -1,4 +1,4 @@
-function linkOf() {
+function linkOff() {
   const links = document.querySelectorAll('.nav-link')
   for (let a of links) {
     a.classList.remove('active')
@@ -6,11 +6,11 @@ function linkOf() {
 }
 
 function linkOn(link) {
-  linkOf()
+  linkOff()
   link.classList.add('active')
 }
 
 function standardLinkOn() {
-  linkOf()
+  linkOff()
   document.querySelector('.nav-link').classList.add('active')
 }
