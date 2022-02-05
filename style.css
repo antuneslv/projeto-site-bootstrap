@@ -1,0 +1,137 @@
+a.anchor {
+  display: block;
+  position: relative;
+  top: -138px;
+  visibility: hidden;
+}
+
+.services {
+  margin-top: 8.5rem;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  background-color: rgba(13, 202, 240, 0.7);
+  border-radius: 20px;
+}
+
+.carousel-caption h5 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  color: var(--bs-gray-200);
+  font-size: 1.3rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: var(--bs-info);
+  font-size: 2rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--bs-info);
+}
+
+.card-body {
+  height: 250px;
+}
+
+.card-body a {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bi-facebook:hover,
+.bi-twitter:hover,
+.bi-instagram:hover,
+.bi-linkedin:hover {
+  color: var(--bs-info);
+}
+
+@media screen and (min-width: 768px) {
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -160px;
+    visibility: hidden;
+  }
+
+  .navbar-brand img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .services {
+    margin-top: 11rem;
+    padding: 1rem 0;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-caption h5 {
+    top: 0;
+    transform: translateY(0);
+    font-size: 2rem;
+    margin: 1.2rem;
+  }
+
+  .carousel-caption p {
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--bs-gray-200);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.9);
+  }
+
+  .carousel-control-prev i,
+  .carousel-control-next i {
+    color: var(--bs-info);
+    font-size: 3rem;
+  }
+
+  .left-border {
+    border-right: 1px solid var(--bs-gray-300);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel-caption {
+    top: 65%;
+    transform: translateY(-90%);
+  }
+
+  .about {
+    height: 88vh;
+    align-content: center;
+  }
+
+  .certifications {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel-caption {
+    top: 75%;
+    transform: translateY(-150%);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .services .carousel-item {
+    height: 80vh;
+  }
+}
